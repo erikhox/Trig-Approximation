@@ -1,6 +1,7 @@
 #include <iostream>
 #include "approx.h"
 
+// the main input and output for the user
 int main() {
     double x{};
     int y{};
@@ -15,5 +16,6 @@ int main() {
     } else {
         std::cout << "tangent of " << x << " is approximatly " << tangent(x, y) << '\n';
     }
+    system("pause");
     return 0;
 }
